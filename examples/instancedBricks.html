@@ -361,7 +361,11 @@
 			}
 
 			window.addEventListener( 'mousedown', onClick, false );
-			window.addEventListener( 'touchstart', onClick, false );
+			window.addEventListener( 'touchstart', function ( event ) {
+
+				onClick( event.touches[ 0 ] );
+
+			}, false );
 
 			window.addEventListener( 'keydown', function ( event ) {
 
