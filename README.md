@@ -1,2 +1,2 @@
 # instancedBricks
-Example with instanced bricks and Ammo.js physics.
+Three.js example with instanced bricks and Ammo.js physics.
